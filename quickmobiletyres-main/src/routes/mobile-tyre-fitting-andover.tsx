@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { CityLanding } from "@/components/city-landing";
 import { cityJsonLd } from "@/lib/city-schema";
-import img from "@/assets/bmw-3-series.jpg.asset.json";
+
 import type { FAQ } from "@/lib/faqs";
 
 const CITY = "Andover";
@@ -38,7 +38,7 @@ export const Route = createFileRoute("/mobile-tyre-fitting-andover")({
       { property: "og:title", content: "Mobile Tyre Fitting Andover · Quick Mobile Tyres" },
       { property: "og:description", content: "Fast mobile tyre fitting and repair across Andover and the A303." },
       { property: "og:url", content: `/${SLUG}` },
-      { property: "og:image", content: img.url },
+      
     ],
     links: [{ rel: "canonical", href: `/${SLUG}` }],
     scripts: cityJsonLd({ city: CITY, slug: SLUG, faqs: FAQS }),
@@ -47,7 +47,7 @@ export const Route = createFileRoute("/mobile-tyre-fitting-andover")({
     <CityLanding
       city={CITY}
       slug={SLUG}
-      heroImage={img.url}
+      heroImage="/mobile-tyre-fitting-1200x1600.webp"
       heroImageAlt="Mobile tyre fitting Andover – technician changing a wheel on a BMW near Andover town centre"
       intro="Fast, professional mobile tyre fitting across Andover, SP10, SP11 and the A303 corridor. We come to your home, office car park or roadside – day or night – with everything needed to get you moving again."
       responseNote="Typical arrival 30–45 minutes across Andover"
