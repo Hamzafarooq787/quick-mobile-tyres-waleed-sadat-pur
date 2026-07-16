@@ -1,11 +1,1 @@
-{
-  "version": 1,
-  "asset_id": "30d772c2-9dbb-4e86-bd2f-7b0cd0c1ea09",
-  "project_id": "8c64af35-9ed2-4468-9325-a8a55e2a841a",
-  "url": "/__l5e/assets-v1/30d772c2-9dbb-4e86-bd2f-7b0cd0c1ea09/jaguar-fpace.jpg",
-  "r2_key": "a/v1/8c64af35-9ed2-4468-9325-a8a55e2a841a/30d772c2-9dbb-4e86-bd2f-7b0cd0c1ea09/jaguar-fpace.jpg",
-  "original_filename": "jaguar-fpace.jpg",
-  "size": 557149,
-  "content_type": "image/jpeg",
-  "created_at": "2026-07-10T04:16:30Z"
-}
+{ "version": 1, "url": "/images/car-service.svg" }

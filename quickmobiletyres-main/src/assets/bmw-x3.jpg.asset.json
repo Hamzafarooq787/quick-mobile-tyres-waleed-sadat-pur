@@ -1,11 +1,1 @@
-{
-  "version": 1,
-  "asset_id": "771f5806-02dc-42dd-865b-81dfc74bdc66",
-  "project_id": "8c64af35-9ed2-4468-9325-a8a55e2a841a",
-  "url": "/__l5e/assets-v1/771f5806-02dc-42dd-865b-81dfc74bdc66/bmw-x3.jpg",
-  "r2_key": "a/v1/8c64af35-9ed2-4468-9325-a8a55e2a841a/771f5806-02dc-42dd-865b-81dfc74bdc66/bmw-x3.jpg",
-  "original_filename": "bmw-x3.jpg",
-  "size": 497459,
-  "content_type": "image/jpeg",
-  "created_at": "2026-07-10T04:16:19Z"
-}
+{ "version": 1, "url": "/images/car-service.svg" }

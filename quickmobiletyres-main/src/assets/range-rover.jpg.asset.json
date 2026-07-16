@@ -1,11 +1,1 @@
-{
-  "version": 1,
-  "asset_id": "bf711184-e727-4735-9217-240eeaa03792",
-  "project_id": "8c64af35-9ed2-4468-9325-a8a55e2a841a",
-  "url": "/__l5e/assets-v1/bf711184-e727-4735-9217-240eeaa03792/range-rover.jpg",
-  "r2_key": "a/v1/8c64af35-9ed2-4468-9325-a8a55e2a841a/bf711184-e727-4735-9217-240eeaa03792/range-rover.jpg",
-  "original_filename": "range-rover.jpg",
-  "size": 294479,
-  "content_type": "image/jpeg",
-  "created_at": "2026-07-10T04:16:39Z"
-}
+{ "version": 1, "url": "/images/car-service.svg" }

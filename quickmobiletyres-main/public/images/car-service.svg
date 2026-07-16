@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#141414"/>
+      <stop offset="100%" style="stop-color:#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E8C547"/>
+      <stop offset="100%" style="stop-color:#C9963B"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="url(#bg)"/>
+
+  <!-- Subtle grid lines -->
+  <g stroke="#1e1e1e" stroke-width="1" opacity="0.8">
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="400" x2="900" y2="400"/>
+    <line x1="0" y1="600" x2="900" y2="600"/>
+    <line x1="0" y1="800" x2="900" y2="800"/>
+    <line x1="0" y1="1000" x2="900" y2="1000"/>
+    <line x1="200" y1="0" x2="200" y2="1200"/>
+    <line x1="400" y1="0" x2="400" y2="1200"/>
+    <line x1="600" y1="0" x2="600" y2="1200"/>
+    <line x1="800" y1="0" x2="800" y2="1200"/>
+  </g>
+
+  <!-- Gold accent bar top -->
+  <rect x="0" y="0" width="900" height="6" fill="url(#gold)"/>
+
+  <!-- Large tyre/wheel graphic in center -->
+  <g transform="translate(450, 520)" filter="url(#glow)">
+    <!-- Outer tyre -->
+    <circle cx="0" cy="0" r="220" fill="none" stroke="#2a2a2a" stroke-width="50"/>
+    <!-- Tyre tread suggestion -->
+    <circle cx="0" cy="0" r="220" fill="none" stroke="url(#gold)" stroke-width="3" opacity="0.6"/>
+    <circle cx="0" cy="0" r="195" fill="none" stroke="url(#gold)" stroke-width="1" opacity="0.3"/>
+    <!-- Rim -->
+    <circle cx="0" cy="0" r="160" fill="#181818" stroke="#2a2a2a" stroke-width="2"/>
+    <!-- Spokes -->
+    <g stroke="url(#gold)" stroke-width="12" stroke-linecap="round" opacity="0.9">
+      <line x1="0" y1="-155" x2="0" y2="-80"/>
+      <line x1="0" y1="155" x2="0" y2="80"/>
+      <line x1="-155" y1="0" x2="-80" y2="0"/>
+      <line x1="155" y1="0" x2="80" y2="0"/>
+      <line x1="-110" y1="-110" x2="-57" y2="-57"/>
+      <line x1="110" y1="-110" x2="57" y2="-57"/>
+      <line x1="-110" y1="110" x2="-57" y2="57"/>
+      <line x1="110" y1="110" x2="57" y2="57"/>
+    </g>
+    <!-- Hub cap -->
+    <circle cx="0" cy="0" r="50" fill="#1a1a1a" stroke="url(#gold)" stroke-width="3"/>
+    <circle cx="0" cy="0" r="25" fill="url(#gold)"/>
+  </g>
+
+  <!-- Gold accent bar -->
+  <rect x="80" y="880" width="740" height="2" fill="url(#gold)" opacity="0.5"/>
+
+  <!-- Brand text -->
+  <text x="450" y="960" font-family="Poppins,Arial,sans-serif" font-size="52" font-weight="800" fill="white" text-anchor="middle" letter-spacing="-1">Quick Mobile</text>
+  <text x="450" y="1030" font-family="Poppins,Arial,sans-serif" font-size="56" font-weight="800" text-anchor="middle" letter-spacing="-1" fill="url(#gold)">Tyres</text>
+  <text x="450" y="1090" font-family="Arial,sans-serif" font-size="22" fill="white" text-anchor="middle" opacity="0.5" letter-spacing="4">24/7 EMERGENCY SERVICE</text>
+
+  <!-- Gold accent bar bottom -->
+  <rect x="0" y="1194" width="900" height="6" fill="url(#gold)"/>
+</svg>

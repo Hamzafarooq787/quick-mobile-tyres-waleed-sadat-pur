@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 70" role="img" aria-label="Quick Mobile Tyres">
+  <!-- Tyre/wheel icon -->
+  <circle cx="35" cy="35" r="30" fill="#0f0f0f" stroke="#D4A726" stroke-width="3"/>
+  <circle cx="35" cy="35" r="20" fill="none" stroke="#D4A726" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="35" cy="35" r="7" fill="#D4A726"/>
+  <!-- Spokes -->
+  <line x1="35" y1="5" x2="35" y2="65" stroke="#D4A726" stroke-width="1.5" opacity="0.5"/>
+  <line x1="5" y1="35" x2="65" y2="35" stroke="#D4A726" stroke-width="1.5" opacity="0.5"/>
+  <line x1="14" y1="14" x2="56" y2="56" stroke="#D4A726" stroke-width="1.5" opacity="0.5"/>
+  <line x1="56" y1="14" x2="14" y2="56" stroke="#D4A726" stroke-width="1.5" opacity="0.5"/>
+  <!-- Text -->
+  <text x="78" y="24" font-family="Poppins,Arial,sans-serif" font-size="13" font-weight="600" fill="#0f0f0f" letter-spacing="1">QUICK MOBILE</text>
+  <text x="78" y="50" font-family="Poppins,Arial,sans-serif" font-size="22" font-weight="800" fill="#D4A726" letter-spacing="0.5">TYRES</text>
+  <text x="78" y="63" font-family="Arial,sans-serif" font-size="9" fill="#666666" letter-spacing="2">24/7 EMERGENCY SERVICE</text>
+</svg>
