@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { WhyChoose } from "@/components/why-choose";
 import { EmergencyBanner } from "@/components/call-button";
-import img from "@/assets/renault-van.jpg.asset.json";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -24,6 +23,7 @@ export const Route = createFileRoute("/about")({
 function AboutPage() {
   return (
     <>
+      {/* Hero */}
       <section className="bg-ink text-ink-foreground py-16 md:py-20">
         <div className="container-lux max-w-3xl">
           <div className="text-xs font-semibold uppercase tracking-widest text-gradient-gold">About Us</div>
@@ -37,8 +37,15 @@ function AboutPage() {
         </div>
       </section>
 
+      {/* Main story + image */}
       <section className="container-lux py-14 md:py-20 grid gap-10 lg:grid-cols-2 items-center">
-        <img src={img.url} alt="Quick Mobile Tyres technician arriving on-site in a fully equipped van" width={1200} height={900} className="w-full aspect-[4/3] object-cover rounded-3xl" />
+        <img
+          src="/roadside-tyre-fitting-1600x900.webp"
+          alt="Quick Mobile Tyres technician fitting a tyre at the roadside"
+          width={1600}
+          height={900}
+          className="w-full aspect-[4/3] object-cover rounded-3xl shadow-lg"
+        />
         <div className="space-y-5 text-base leading-relaxed">
           <p>
             With years of experience under the bonnet – and under a lot of jacks – our fitters have handled everything
@@ -58,6 +65,64 @@ function AboutPage() {
             and treating your driveway or car park like our own.
           </p>
         </div>
+      </section>
+
+      {/* Photo gallery – three images */}
+      <section className="bg-muted/40 py-14 md:py-20">
+        <div className="container-lux">
+          <div className="text-xs font-semibold uppercase tracking-widest text-gradient-gold">Our Work</div>
+          <h2 className="mt-2 font-display text-3xl md:text-4xl font-bold">Seen at the roadside, driveway and motorway.</h2>
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <img
+              src="/mobile-tyre-fitting-1200x1600.webp"
+              alt="Mobile tyre fitting service"
+              width={1200}
+              height={1600}
+              loading="lazy"
+              className="w-full aspect-[3/4] object-cover rounded-2xl shadow"
+            />
+            <img
+              src="/mobile-tyre-repair-1200x1600.webp"
+              alt="Mobile tyre repair – puncture fixed to BS AU 159"
+              width={1200}
+              height={1600}
+              loading="lazy"
+              className="w-full aspect-[3/4] object-cover rounded-2xl shadow"
+            />
+            <img
+              src="/emergency-tyre-fitting-repair-1200x1600.webp"
+              alt="Emergency tyre fitting and repair"
+              width={1200}
+              height={1600}
+              loading="lazy"
+              className="w-full aspect-[3/4] object-cover rounded-2xl shadow sm:col-span-2 lg:col-span-1"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Second image + text – reversed */}
+      <section className="container-lux py-14 md:py-20 grid gap-10 lg:grid-cols-2 items-center">
+        <div className="space-y-5 text-base leading-relaxed lg:order-1">
+          <div className="text-xs font-semibold uppercase tracking-widest text-gradient-gold">Every road, every time</div>
+          <h2 className="font-display text-3xl font-bold">From quiet driveways to busy motorways.</h2>
+          <p>
+            Whether you're stuck on a dual carriageway hard shoulder or just need a set of four replaced before a long trip,
+            our response is the same – fast, safe and professional.
+          </p>
+          <p>
+            We work across Andover, Basingstoke, Winchester, Reading and the surrounding areas,
+            covering everything from residential streets to business parks and major A-roads.
+          </p>
+        </div>
+        <img
+          src="/motorway-tyre-fitting-900x1600.webp"
+          alt="Motorway tyre fitting – technician working safely at the roadside"
+          width={900}
+          height={1600}
+          loading="lazy"
+          className="w-full aspect-[3/4] object-cover rounded-3xl shadow-lg lg:order-2"
+        />
       </section>
 
       <WhyChoose />
