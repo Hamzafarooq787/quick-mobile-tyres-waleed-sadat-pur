@@ -38,7 +38,7 @@ export const Route = createFileRoute("/mobile-tyre-fitting-winchester")({
       { property: "og:title", content: "Mobile Tyre Fitting Winchester · Quick Mobile Tyres" },
       { property: "og:description", content: "Premium mobile tyre fitting across Winchester and the surrounding villages." },
       { property: "og:url", content: `/${SLUG}` },
-      { property: "og:image", content: img.url },
+      
     ],
     links: [{ rel: "canonical", href: `/${SLUG}` }],
     scripts: cityJsonLd({ city: CITY, slug: SLUG, faqs: FAQS }),
@@ -47,7 +47,7 @@ export const Route = createFileRoute("/mobile-tyre-fitting-winchester")({
     <CityLanding
       city={CITY}
       slug={SLUG}
-      heroImage={img.url}
+      heroImage="/mobile-tyre-fitting-1200x1600.webp"
       heroImageAlt="Mobile tyre fitting Winchester – Jaguar F-Pace on a residential road having its tyre changed"
       intro="Premium mobile tyre fitting for Winchester drivers. From city centre terraces to the surrounding SO21 villages – and the M3/A34 that connects them – we bring the tyre bay to you."
       responseNote="Typical arrival 45 minutes across Winchester"

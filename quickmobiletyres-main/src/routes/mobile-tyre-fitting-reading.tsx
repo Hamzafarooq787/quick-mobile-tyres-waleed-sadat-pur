@@ -38,7 +38,7 @@ export const Route = createFileRoute("/mobile-tyre-fitting-reading")({
       { property: "og:title", content: "Mobile Tyre Fitting Reading · Quick Mobile Tyres" },
       { property: "og:description", content: "24/7 emergency mobile tyre service across Reading and the M4 corridor." },
       { property: "og:url", content: `/${SLUG}` },
-      { property: "og:image", content: img.url },
+      
     ],
     links: [{ rel: "canonical", href: `/${SLUG}` }],
     scripts: cityJsonLd({ city: CITY, slug: SLUG, faqs: FAQS }),
@@ -47,7 +47,7 @@ export const Route = createFileRoute("/mobile-tyre-fitting-reading")({
     <CityLanding
       city={CITY}
       slug={SLUG}
-      heroImage={img.url}
+      heroImage="/mobile-tyre-fitting-1200x1600.webp"
       heroImageAlt="Mobile tyre fitting Reading – Audi Q8 having its rear wheel changed in a Reading car park"
       intro="Reading's 24/7 mobile tyre team. Whether you're office-based at Green Park, driving the M4 or stuck on the IDR, we'll come to you with a fully stocked van and get you moving."
       responseNote="Typical arrival under an hour across Reading"

@@ -1,10 +1,3 @@
-import bmw3 from "@/assets/bmw-3-series.jpg.asset.json";
-import bmwX3 from "@/assets/bmw-x3.jpg.asset.json";
-import g63 from "@/assets/mercedes-g63.jpg.asset.json";
-import m4 from "@/assets/bmw-m4.jpg.asset.json";
-import fpace from "@/assets/jaguar-fpace.jpg.asset.json";
-import q8 from "@/assets/audi-q8.jpg.asset.json";
-import rover from "@/assets/range-rover.jpg.asset.json";
 
 export type Service = {
   slug: string;
@@ -25,7 +18,7 @@ export const SERVICES: Service[] = [
     short: "New tyres fitted at your home, work or roadside.",
     metaDescription:
       "Professional mobile tyre fitting at home, work or roadside. Same-day service, quality tyres, fully equipped vans. Call Quick Mobile Tyres now.",
-    image: bmw3.url,
+    image: "/mobile-tyre-fitting-1200x1600.webp",
     imageAlt: "Mobile tyre fitting on a BMW 3 Series at the roadside",
     intro:
       "Skip the tyre shop queue. Our fully equipped vans arrive at your driveway, office car park or the roadside and fit new tyres on the spot – usually within the hour.",
@@ -46,7 +39,7 @@ export const SERVICES: Service[] = [
     short: "Fast puncture repairs to British Standard BS AU 159.",
     metaDescription:
       "Mobile tyre repair to British Standard BS AU 159. Punctures, slow leaks and valve replacements fixed at your location. Call now.",
-    image: fpace.url,
+    image: "/mobile-tyre-repair-1200x1600.webp",
     imageAlt: "Mobile tyre repair on a Jaguar F-Pace at a residential address",
     intro:
       "If your puncture is in the repairable zone, a proper internal patch-plug is faster, cheaper and safer than a replacement. We assess honestly and only repair when it's safe.",
@@ -67,7 +60,7 @@ export const SERVICES: Service[] = [
     short: "Rapid response when you can't wait until tomorrow.",
     metaDescription:
       "24/7 emergency tyre fitting and repair. Fast response mobile tyre technicians ready to get you back on the road. Call Quick Mobile Tyres.",
-    image: m4.url,
+    image: "/emergency-tyre-fitting-repair-1200x1600.webp",
     imageAlt: "Emergency tyre fitting on a BMW M4 at the side of the road",
     intro:
       "Stuck with a shredded tyre before a school run, work meeting or long drive? Our emergency line is answered around the clock and a technician is dispatched immediately.",
@@ -88,7 +81,7 @@ export const SERVICES: Service[] = [
     short: "Flat, blowout or slow puncture – sorted at your location.",
     metaDescription:
       "Flat tyre service at your home, work or roadside. Repair or replace with a mobile tyre technician who comes to you. Call now for immediate help.",
-    image: bmwX3.url,
+    image: "/flat-tyre-service-1200x1600.webp",
     imageAlt: "Flat tyre service on a BMW X3 on a gravel driveway",
     intro:
       "A flat tyre shouldn't ruin your day. Whether it went down overnight or you've just felt the steering pull, we come to you with a fully stocked van and the right tools.",
@@ -109,7 +102,7 @@ export const SERVICES: Service[] = [
     short: "Safe, quick-turnaround roadside tyre changes.",
     metaDescription:
       "Roadside tyre fitting from a fully equipped mobile technician. Fast, safe and available around the clock. Call Quick Mobile Tyres now.",
-    image: rover.url,
+    image: "/roadside-tyre-fitting-1600x900.webp",
     imageAlt: "Roadside tyre fitting on a Range Rover at a busy A-road",
     intro:
       "Broken down on a country lane, dual carriageway or lay-by? A qualified fitter with hi-vis, warning triangles and the right kit will be with you fast.",
@@ -130,7 +123,7 @@ export const SERVICES: Service[] = [
     short: "Get off the hard shoulder safely and quickly.",
     metaDescription:
       "Motorway tyre fitting with rapid response times. Hard shoulder callouts handled safely by experienced mobile tyre technicians. Call now.",
-    image: q8.url,
+    image: "/motorway-tyre-fitting-900x1600.webp",
     imageAlt: "Motorway tyre fitting service preparing to change a wheel on an Audi Q8",
     intro:
       "The hard shoulder is the most dangerous place to break down. Call us first – we work closely with recovery operators and can meet you at a safe location off the motorway.",
@@ -151,7 +144,7 @@ export const SERVICES: Service[] = [
     short: "Full mobile tyre replacement, up to four at a time.",
     metaDescription:
       "Mobile tyre replacement at your home or work. Premium, mid-range and budget brands. Fitted, balanced and old tyres recycled. Call now.",
-    image: g63.url,
+    image: "/mobile-tyre-replacement-on-a-mercedes-g63-amg-on-a-driveway-1200x1600.webp",
     imageAlt: "Mobile tyre replacement on a Mercedes G63 AMG on a driveway",
     intro:
       "Whether you need a single tyre matched to a pair, or a full set of four replaced, our mobile tyre replacement service brings the tyre bay to your driveway.",

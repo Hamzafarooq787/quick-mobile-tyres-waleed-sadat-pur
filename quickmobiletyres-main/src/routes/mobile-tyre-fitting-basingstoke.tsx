@@ -38,7 +38,7 @@ export const Route = createFileRoute("/mobile-tyre-fitting-basingstoke")({
       { property: "og:title", content: "Mobile Tyre Fitting Basingstoke · Quick Mobile Tyres" },
       { property: "og:description", content: "Emergency mobile tyre fitting in Basingstoke, the M3 corridor and surrounding villages." },
       { property: "og:url", content: `/${SLUG}` },
-      { property: "og:image", content: img.url },
+      
     ],
     links: [{ rel: "canonical", href: `/${SLUG}` }],
     scripts: cityJsonLd({ city: CITY, slug: SLUG, faqs: FAQS }),
@@ -47,7 +47,7 @@ export const Route = createFileRoute("/mobile-tyre-fitting-basingstoke")({
     <CityLanding
       city={CITY}
       slug={SLUG}
-      heroImage={img.url}
+      heroImage="/mobile-tyre-fitting-1200x1600.webp"
       heroImageAlt="Mobile tyre fitting Basingstoke – technician working on a BMW M4 near the M3"
       intro="Basingstoke's go-to mobile tyre team. We fit, repair and replace tyres across town, the business parks and the M3 corridor – 24 hours a day, 7 days a week."
       responseNote="Typical arrival under an hour across Basingstoke"

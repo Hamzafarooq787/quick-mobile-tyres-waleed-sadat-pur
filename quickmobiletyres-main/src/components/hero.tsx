@@ -1,6 +1,5 @@
 import { Phone, ShieldCheck, Clock, MapPin } from "lucide-react";
 import { SITE } from "@/lib/site";
-import heroImg from "@/assets/bmw-3-series.jpg.asset.json";
 
 export function Hero() {
   return (
@@ -57,8 +56,8 @@ export function Hero() {
         <div className="relative">
           <div className="absolute -inset-6 rounded-[2rem] bg-gold/20 blur-2xl" aria-hidden />
           <img
-            src={heroImg.url}
-            alt="Mobile tyre technician fitting a new tyre to a BMW 3 Series"
+            src="/mobile-tyre-fitting-1200x1600.webp"
+            alt="Mobile tyre technician fitting a new tyre at the roadside"
             width={900}
             height={1200}
             className="relative w-full aspect-[4/5] object-cover rounded-3xl border border-white/10 shadow-2xl"
