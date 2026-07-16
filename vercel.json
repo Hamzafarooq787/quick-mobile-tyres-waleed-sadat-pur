@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd quickmobiletyres-main && npm install && npm run build",
+  "outputDirectory": "quickmobiletyres-main/dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

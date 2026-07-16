@@ -1,11 +1,1 @@
-{
-  "version": 1,
-  "asset_id": "9be5cc0f-bcde-4c73-8d6b-a54f002f4388",
-  "project_id": "8c64af35-9ed2-4468-9325-a8a55e2a841a",
-  "url": "/__l5e/assets-v1/9be5cc0f-bcde-4c73-8d6b-a54f002f4388/renault-van.jpg",
-  "r2_key": "a/v1/8c64af35-9ed2-4468-9325-a8a55e2a841a/9be5cc0f-bcde-4c73-8d6b-a54f002f4388/renault-van.jpg",
-  "original_filename": "renault-van.jpg",
-  "size": 315161,
-  "content_type": "image/jpeg",
-  "created_at": "2026-07-10T04:16:43Z"
-}
+{ "version": 1, "url": "/images/car-service.svg" }
